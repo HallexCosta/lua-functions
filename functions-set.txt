@@ -1,0 +1,31 @@
+ setItemAttack(uid, attack) - Modifica o ataque da arma
+
+setPlayerStamina(cid, minutes) - Adicione tempo em stamina.
+
+setPlayerExtraExpRate(cid, value) - Modifica mais taxa de experiencia
+
+setPlayerPartner(cid, guid) - Desconheço
+
+setItemPluralName(uid) - Modifica ou adiciona o nome do item no plural.
+
+setItemName(uid) - Muda o nome do item.
+
+setItemIdArticle(uid) - Modifica o article no item (sei la q merda é essa)
+
+setItemExtraAttack(uid, extraattack) - Adiciona ataque extra na arma.
+
+setItemDefense(uid, defense) - Modifica defesa no item
+
+setItemExtraDefense(uid, extradefense) - Modifica aquela defesa extra na arma
+
+setItemArmor(uid, armor) - Modifica a armor do item
+
+setItemAttackSpeed(uid, attackspeed) - Muda a velocidade de ataque do item
+
+setItemHitChance(uid, hitChance) - Modifica a taxa de dano do item
+
+setGlobalStorageValue(valueid, newvalue) - Adiciona um valor global (Muito util para scripts avançados)
+
+setHouseOwner(houseid, ownerGUID) - Muda o dono da casa
+
+setWorldType(type) - Muda o estilo do mundo para PvP, Non Pvp e Pvp Enforced

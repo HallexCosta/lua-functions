@@ -1,0 +1,89 @@
+ getPlayerFood(cid) – Verifica quanto de tempo de comida o player possui.
+
+getCreatureHealth(cid) – Verifica a health atual do player.
+
+getCreatureMaxHealth(cid) – Verifica a health maxima do player.
+
+getCreatureMana(cid) – Verifica a mana atual do player.
+
+getCreatureMaxMana(cid) – Verifica a mana maxima do player.
+
+getPlayerLevel(cid) – Verifica o level do player.
+
+getPlayerExperience(cid) – Verifica a experiencia.
+
+getPlayerMagLevel(cid) – Verifica o magic level.
+
+getPlayerAccess(cid) – Verifica o nivel de acesso (player,gm,tutor...)
+
+getPlayerTown(cid) - Verifica o id da cidade natal do player.
+
+getPlayerVocation(cid) – Verifica a vocação dele.
+
+getPlayerSoul(cid) – Verifica o soul points.
+
+getPlayerFreeCap(cid) – Verifica quanto de capacidade atual existe.
+
+getPlayerLight(cid) - Verifica o tamanho da luz do player.
+
+getPlayerGuildId(cid) – Verifica o id atual da guild do player.
+
+getPlayerGuildName(cid) – Verifica o nome da guild.
+
+getPlayerGuildRank(cid) - Verifica o posto dele na guild.
+
+getPlayerGuildNick(cid) – Verifica o nick dele na guild. (aquilo escrito no final entre parenteeses).
+
+getPlayerGuildLevel(cid) – Verifica o nivel da guild.
+
+getPlayerSex(cid) – Verifica o sexo do player(0-mulher, 1 – homem).
+
+getPlayerLookDir(cid) – Verifica a direção na qual ele está olhando. (0-norte, 1-leste, 2-sul, 3 -oeste).
+
+getPlayerGUID(cid) – Verifica o id dele na database.
+
+getPlayerPromotionLevel(cid) – Verifica o nivel da promoção do player.
+
+getPlayerGroupId(cid) – Verifica o nivel dele. (igual acesso).
+
+getPlayerInstantSpellCount(cid) - Verifica quantas spells o player sabe.
+
+getMonsterTargetList(cid) – Verifica os montros na qual você está atacando.
+
+getMonsterFriendList(cid) – Verifica os monstros amigo (provavelmente summons).
+
+getCreatureOutfit(cid) – Verifica o id da roupa do player.
+
+getCreaturePosition(cid) – Verifica a posição x,y,z do player.
+
+getCreatureSpeed(cid) – Verifica a velocidade atual do player.
+
+getCreatureBaseSpeed(cid) – Verifica a velocidade base do player.
+
+getCreatureName(cid) – Verifica o nome do player.
+
+getCreatureTarget(cid) – Verifica quem o player está atacando.
+
+getPlayerPremiumDays(cid) – Verifica quantos dias de premmium account o player possui.
+
+getPlayerSkullType(cid) – Verifica qual skull o player possui.
+
+getPlayerBalance(cid) – Verifica o saldo bancario do player.
+
+getPlayerStamina(cid) – Verifica o tempo de stamina.
+
+getPlayerNoMove(cid) – Verifica se ele pode se mover.
+
+getPlayerExtraExpRate(cid) – Verifica a taxa de experiencia extra (a confirmar).
+
+getPlayerPartner(cid) – Se o player está em parte ou não.
+
+getPlayerParty(cid) – Verifica informações da party do player.
+
+getPartyMembers(lid) – Verifica os membros da party segundo o id da função acima.
+
+getCreatureMaster(cid) – Verifica a criatura mestre (a que sumona).
+
+getCreatureSummons(cid) – Verifica os summons da criatura.
+
+A sintaxe dessas funções é essa :

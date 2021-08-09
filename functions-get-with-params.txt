@@ -1,0 +1,81 @@
+ getPlayerSkill(cid, skillid) - checa o skill especificado do player (0- fist,1-club, 2-sword, 3-axe, 4-distance, 5 -shield, 6 – fishing).
+
+getPlayerItemCount(cid,itemid) - checa a quantidade de item agrupaveis.
+
+getPlayerSlotItem(cid, slot) - Checa que item tem no slot do player (1-cabeca, 2- amuleto, 3- backpack, 4-armadura, 5-mao direita, 6-mao esquerda, 7-pernas, 8- botas, 9-anel, 10 slot da torcha).
+
+getPlayerWeapon(cid, <optional> ignoreAmmo) - Checa que arma o player esta usando. (o outro paramentro ainda n usei).
+
+getPlayerItemById(cid, deepSearch, itemId, <optional> subType) - Procura o item especifica no item, pode colocar o subtipo (viais por exemplo).
+
+getPlayerDepotItems(cid, depotid) - Ve quantos itens tem no depot da cidade (Por id de cidade).
+
+getPlayerFlagValue(cid, flag) - Ve as flag dos players (Apenas em TFS e nunca usei).
+
+getPlayerCustomFlagValue(cid, flag) - Verifica o valor da flag.
+
+getPlayerLearnedInstantSpell(cid, name) - Verifica se o player sabe a magia.
+
+getPlayerInstantSpellInfo(cid, index) - Desconheço
+
+getInstantSpellInfoByName(cid, name) - Verifica valores da magia
+
+getInstantSpellWords(name) - Retorna a palavra magica da magia.
+
+getPlayerStorageValue(uid, valueid) - Verifica o valor do storage do player
+
+getCreatureByName(name) - Retorna o nome da criatura.
+
+getPlayerGUIDByName(name) - Verifica o numero da tabela sql do player.
+
+getPlayerNameByGUID(guid) - Verifica o nome do jogador pelo numero da tabela sql
+
+getContainerSize(uid) - Verifica quantos slots tem o container.
+
+getContainerCap(uid) - Verifica quanto pesa o container.
+
+getContainerItem(uid, slot) - Verifica se há um container no slot especificado.
+
+getDepotId(uid) - - Verifica o id da cidade do depot.
+
+getItemDescriptionsById(itemid) - Pega a descrição do item pelo id.
+
+getItemNameById(itemid) - - Pega o nome do item pelo id.
+
+getItemPluralNameById(itemid) - Pega o nome em plural do item pelo id.(apenas itens agrupaveis).
+
+getItemIdArticleById(itemid) - Retorna um valor pelo id. Desconheço essa função
+
+getItemWeightById(itemid, count, <optional: default: 1> precise) - -Pega o peso do item por id.
+
+getItemDescriptions(uid) - - Pega a descrição do item por uid. (por exemplo se ele é item ou item2 em actions).
+
+getItemName(uid) - - Pega a descrição do item por uid.
+
+getItemAttack(uid) - Pega o ataque do item por uid.
+
+getItemPluralName(uid) - Pega o nome em plural por uid.
+
+getItemExtraAttack(uid) - Modifica o ataque extra da arma (Acho que deve ser ataque elemental ou defesa de armor).
+
+getItemIdArticle(uid) - - Desconheço.
+
+getItemDefense(uid) - - Pega a defesa do item por uid.
+
+getItemExtraDefense(uid) - - Pega a defesa extra (armor) por uid.
+
+getItemArmor(uid) - - Pega o valor de armour por uid.
+
+getItemAttackSpeed(uid) - - Pega a velocidade de ataque por uid.
+
+getItemHitChance(uid) - - Pega a chanche de dano do item por uid.
+
+getItemIdByName(name) - - Retorna o id do item pelo nome.
+
+getPromotedVocation(vocation) - - Verifica qual o nome da vocação promocional da vocação(Sorcerer = Master Sorcerer).
+
+getPlayerBlessing(cid, blessing) - - Verifica qual nivel de benção o player tem (1 = 1, 2 =2...).
+
+getTemplePositionByName(townName) - - Verifica as coordenadas do templo pelo nome da cidade.
+
+getTemplePositionById(townId) - - Verifica as coordenadas do templo pelo id da cidade.

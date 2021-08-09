@@ -1,0 +1,103 @@
+doPlayerLearnInstantSpell(cid, name) - Faz o player aprende a magia pelo nome dela.
+
+doRemoveItem(uid, quantidade) - Remove o item do player.
+
+doPlayerFeed(cid, food) - Adiciona "comida" ao player.
+
+doPlayerSendCancel(cid, text) - Manda aquela mensagem branca no rodape da tela.
+
+doPlayerSendDefaultCancel(cid, ReturnValue) - Inutil pelo que saiba , pq nunca vi um script com isso e por isso n sei pra q serve.
+
+doTeleportThing(cid, newpos, <optional> pushmove) - Teleporta o player para uma nova posição.
+
+doTransformItem(uid, toitemid, <optional> count/subtype) - Transforma o item em outro.
+
+doCreatureSay(cid, text, type) - - Faz o player falar algo.
+
+doSendMagicEffect(pos, type[, player]) - Faz algum efeito magico
+
+doSendDistanceShoot(frompos, topos, type) - Faz algum efeito de distancia
+
+doChangeTypeItem(uid, newtype) - Muda o tipo dele ou a quantidade de itens agrupaveis.
+
+doSetItemActionId(uid, actionid) - Adiciona uma nova actionid por uid.
+
+doSetItemText(uid, text) - - Adiciona um texto ao item.
+
+doSetItemSpecialDescription(uid, desc) - Coloca a descrição especial no item. (Esse item foi feito especialmente para sei la kem).
+
+doSendAnimatedText(pos, text, color) - Manda um texto animado (Se vc joga servidor Pvp Enforced sabe qual é).
+
+doPlayerAddSkillTry(cid, skillid, n) - Adiciona uma tentativa em um skill (Se vc colocar 9999999 ele aumenta apenas 1 skill).
+
+doCreatureAddHealth(cid, health) - Adiciona life ao player.
+
+doCreatureAddMana(cid, mana) - Adiciona mana ao player.
+
+doPlayerSetTown(cid, townid) - Muda a cidade do player.
+
+doPlayerSetVocation(cid,voc) - Muda a vocação do player ( Não coloque vocação promocional em TFS pq dará erros).
+
+doPlayerRemoveItem(cid, itemid, count, <optional> subtype) - Remove um item do player.
+
+doPlayerAddExp(cid, exp) - Adiciona experiencia ao player.
+
+doPlayerAddOutfit(cid,looktype,addons) - Adiciona addons do outfit ao player.
+
+doPlayerRemoveOutfit(cid,looktype,addons) - Remove addons do outfit do player.
+
+doAddContainerItem(uid, itemid, <optional> count/subtype) - Adiciona um container por uid.
+
+doBroadcastMessage(message, type) - Manda uma mensagem global ao servidor.
+
+doPlayerBroadcastMessage(cid, message, <optional> type) -
+
+doPlayerSetSex(cid, newSex) - - Muda o sexo do Player (0- mulher, 1 homem)
+
+doCreatureChangeOutfit(cid, outfit) - Muda a roupa do player.
+
+doSetMonsterOutfit(cid, name, time) - Muda a roupa para de um monstro.
+
+doSetItemOutfit(cid, item, time) - Muda a roupa do player para de um item.
+
+doSetCreatureOutfit(cid, outfit, time) - Adiciona uma roupa por tempo.
+
+doPlayerAddMapMark(cid, pos, type, <optional> description) - Adiciona aquelas marcações no mapa do jogador.
+
+doPlayerAddPremiumDays(cid, days) - Adiciona dias de premmium no jogador
+
+doPlayerAddManaSpent(cid, mana) - Adiciona % de magic level (Se vc colcoar 99999999 ele aumentará muitos mls...)
+
+doPlayerAddSoul(cid, soul) - Adiciona soul points ao jogador
+
+doPlayerAddItem(uid, itemid, <optional> count/subtype, <optional: default: 1> canDropOnMap) - Adiciona itens no player.
+
+doPlayerAddItemEx(cid, uid, <optional: default: 0> canDropOnMap) - Adiciona um item2 no player (Estranho).
+
+doPlayerSendTextMessage(cid, MessageClasses, message) - Manda um texto pro player.
+
+doPlayerAddMoney(cid, money) - Adiciona dinheiro ao player
+
+doPlayerRemoveMoney(cid, money) - Remove dinheiro do player.
+
+doPlayerWithdrawMoney(cid, money) - Remove dinheiro do banco
+
+doPlayerDepositMoney(cid, money) - Adiciona dinheiro ao banco.
+
+doPlayerTransferMoneyTo(cid, target, money) - Transfere dinheiro do banco.
+
+doShowTextDialog(cid, itemid, text) - Mostra o texto do item
+
+doDecayItem(uid) - Decai o item (aprodecer)
+
+doCreateItem(itemid, type/count, pos) -
+
+doCreateItemEx(itemid, <optional> count/subtype) - Cria um item2.
+
+doTileAddItemEx(pos, uid) - Cria um item2 em um tile
+
+doAddContainerItemEx(uid, virtuid) - Adiciona um item2 no container
+
+doCreateTeleport(itemid, topos, createpos) - Cria um teleport
+
+doSummonCreature(name, pos) - Sumona um monstro
